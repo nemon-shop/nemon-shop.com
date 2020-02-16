@@ -91,6 +91,7 @@ footer{
 	height: 100px;
 	width: 100%;
 	color: black;
+	max-height: 100px;
 }
 footer #pos{
 	display: table;
