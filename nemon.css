@@ -8,13 +8,13 @@ html, body{
 	height: 100%;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
-	min-width: 1000px;
 }
 /*Header*/
 .menu{
 	background: white;
 	height: 120px;
 	width: 100%;
+	min-width: 1000px;
 }
 .inner{
 	width: 80%;
