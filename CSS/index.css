@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One|Lato|Roboto&display=swap');
 @font-face {
     font-family: 'RobotoForNemon';
-    src: url('file:///F://Nemon/Site/Font/RobotoForNemon/Roboto For Nemon.eot');
-    src: url('file:///F://Nemon/Site/Font/RobotoForNemon/Roboto For Nemon.eot?#iefix') format('embedded-opentype'),
-         url('file:///F://Nemon/Site/Font/RobotoForNemon/Roboto For Nemon.woff') format('woff'),
-         url('file:///F://Nemon/Site/Font/RobotoForNemon/Roboto For Nemon.ttf') format('truetype');
+    src: url('font/RobotoForNemon/Roboto For Nemon.eot');
+    src: url('font/RobotoForNemon/Roboto For Nemon.eot?#iefix') format('embedded-opentype'),
+         url('font/RobotoForNemon/Roboto For Nemon.woff') format('woff'),
+         url('font/RobotoForNemon/Roboto For Nemon.ttf') format('truetype');
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
