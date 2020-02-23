@@ -1,0 +1,46 @@
+/*Police d'écriture*/
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Lato|Roboto&display=swap');
+/*Page*/
+html, body{
+	margin: 0;
+	padding: 0;
+	display: table;
+	height: 100%;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+/*Contenu*/
+.container{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.Error404 h1{
+	font-size: 50px;
+	margin: 40px;
+}
+.Error404 p{
+	font-size: 20px;
+	margin: 40px;
+}
+.Error404 .BackHome{
+	background-color: rgb(128,128,128);
+	height: 60px;
+	width: 220px;
+	margin-top: 40px;
+	display: table;
+}
+.Error404 .BackHome:hover{
+	background-color: rgb(100,100,100);
+}
+.Error404 .BackHome a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
