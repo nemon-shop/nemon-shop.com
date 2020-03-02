@@ -51,6 +51,19 @@ html, body{
 	display: table;
 	text-align: center;
 }
+/*A1*/
+.A1{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.groupA1{
+	display: table-cell;
+	vertical-align: middle;
+}
 /*Footer*/
 footer{
 	display: table-row;
