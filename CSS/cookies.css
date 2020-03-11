@@ -65,7 +65,8 @@ html, body{
 	vertical-align: middle;
 	font-size: 20px;
 	color: black;
-	margin: 20%
+	padding: 5%;
+	font-size: 20px;
 }
 /*Footer*/
 footer{
