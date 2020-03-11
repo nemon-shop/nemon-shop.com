@@ -63,6 +63,9 @@ html, body{
 .groupA1{
 	display: table-cell;
 	vertical-align: middle;
+	font-size: 20px;
+	color: black;
+	margin: 20%
 }
 /*Footer*/
 footer{
