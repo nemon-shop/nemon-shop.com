@@ -151,23 +151,35 @@ html, body{
 	color: black;
 	font-size: 20px;
 }
-.A3 .groupA3 .product_t-shirt{
+.A3 .groupA3 .t-shirt{
 	background-color: rgb(128,128,128);
 	height: 60px;
 	width: 200px;
 	margin-top: 40px;
 	display: table;
 }
-.A3 .groupA3 .product_t-shirt:hover{
-	background-color: rgb(100,100,100);
+.A3 .groupA3 .t-shirt:hover{
+	background-color: rgb(255,0,0);
 }
-.A3 .groupA3 .product_t-shirt a{
+.A3 .groupA3 .t-shirt a{
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+}
+.A3 .groupA3 .t-shirt #contentts-fr:before{
+	content: "Pré-commander";
+}
+.A3 .groupA3 .t-shirt:hover #contentts-fr:before{
+	content: "Indisponible";
+}
+.A3 .groupA3 .t-shirt #contentts-en:before{
+	content: "Pre-order";
+}
+.A3 .groupA3 .t-shirt:hover #contentts-en:before{
+	content: "Unavailable";
 }
 /*A4*/
 .A4{
@@ -192,17 +204,17 @@ html, body{
 	color: black;
 	font-size: 20px;
 }
-.A4 .groupA4 .product_wallpaper{
+.A4 .groupA4 .wallpaper{
 	background-color: rgb(128,128,128);
 	height: 60px;
 	width: 200px;
 	margin-top: 40px;
 	display: table;
 }
-.A4 .groupA4 .product_wallpaper:hover{
+.A4 .groupA4 .wallpaper:hover{
 	background-color: rgb(100,100,100);
 }
-.A4 .groupA4 .product_wallpaper a{
+.A4 .groupA4 .wallpaper a{
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
