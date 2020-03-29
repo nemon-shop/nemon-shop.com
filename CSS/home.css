@@ -160,6 +160,7 @@ html, body{
 }
 .A3 .groupA3 .t-shirt:hover{
 	background-color: rgb(255,0,0);
+	cursor: not-allowed;
 }
 .A3 .groupA3 .t-shirt a{
 	color: black;
