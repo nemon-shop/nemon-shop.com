@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Redirect</Title>
+		<link href="/CSS/redirect.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="/images/logo/logo-nemon-favicon.ico" />
+		<meta charset="UTF-8"/>
+		<meta http-equiv="content-language" content="fr" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="msgredirect">
+				<img src="/images/logo/logo-nemon.png" width="136" height="160"/>
+				<h1>Nous avons déménagé</h1>
+				<p>L'URL de Nemon est maintenant <strong>www.nemon.eu</strong></p>
+				<center>
+					<div class="redirect">
+						<a id="element" href="https://www.nemon.eu"></a>
+						<script type="text/javascript">
+							var element = document.getElementById('element');
+							element.innerHTML = "Vous allez être redirigé dans 10 secondes...";
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 9 secondes..."; }, 1000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 8 secondes..."; }, 2000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 7 secondes..."; }, 3000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 6 secondes..."; }, 4000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 5 secondes..."; }, 5000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 4 secondes..."; }, 6000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 3 secondes..."; }, 7000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 2 secondes..."; }, 8000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 1 secondes..."; }, 9000);
+							setTimeout(function() { element.innerHTML = "Vous allez être redirigé dans 0 secondes..."; }, 10000);
+							setTimeout(function() { document.location.href="https://www.nemon.eu"; }, 10500);
+							setTimeout(function() { element.innerHTML = "Cliquez ici"; }, 15000);
+						</script>
+					</div>
+				</center>
+			</div>
+		</div>
+	</body>
+</html> 

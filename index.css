@@ -1,0 +1,20 @@
+/*Police d'écriture*/
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Lato|Roboto&display=swap');
+/*Page*/
+html, body{
+	margin: 0;
+	padding: 0;
+	display: table;
+	height: 100%;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	height: auto;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	display: table;
+	text-align: center;
+}
